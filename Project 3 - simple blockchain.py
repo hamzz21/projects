@@ -1,4 +1,4 @@
-Hamna Qadir, student ID: Hamna Qadir
+Hamna Qadir
 """ 
 import datetime
 import hashlib
