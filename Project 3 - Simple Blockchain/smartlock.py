@@ -1,5 +1,3 @@
-Hamna Qadir
-""" 
 import datetime
 import hashlib
 import json
@@ -87,7 +85,7 @@ def is_valid():
     is_valid = blockchain.is_chain_valid(blockchain.chain)
     if is_valid:
         response = {'message': 'The Blockchain is in a valid state.'}
-    else
+    else:
         response = {'message': 'The Blockchain is no longer valid.'}
     return jsonify(response), 200
 app.run(host = '0.0.0.0', port = 5000)
